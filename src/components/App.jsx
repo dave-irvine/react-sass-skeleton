@@ -1,6 +1,6 @@
 import React from 'react';
 
-require('./css/App.scss');
+// Style import is handled in index.jsx
 
 export default function App() {
   return <div />;
