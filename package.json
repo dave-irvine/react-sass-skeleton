@@ -29,6 +29,8 @@
     "webpack-dev-server": "^2.9.4"
   },
   "dependencies": {
+    "mini.css": "^2.3.7",
+    "mini.css-react": "^1.0.3",
     "react": "^16.1.1",
     "react-dom": "^16.1.1"
   }
