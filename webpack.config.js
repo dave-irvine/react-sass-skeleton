@@ -23,6 +23,12 @@ module.exports = {
           loader: 'css-loader',
         }, {
           loader: 'sass-loader',
+          options: {
+            sourceMap: true,
+            includePaths: [
+              path.join(__dirname, 'src', 'css'),
+            ],
+          },
         }],
       },
       {
